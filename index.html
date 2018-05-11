@@ -18,15 +18,31 @@
   <body>
     <div class="container big-container">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="btn-group" role="group">
+        <nav class="navbar navbar-expand-lg float-right">
 
-            </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="/images/inventory.png" alt="inventory">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Carrot</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Use</a></li>
+                      <li><a class="dropdown-item" href="#">Take</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-        </div>
+        </nav>
       </div>
-      
+
       <div class="container">
         <button class="dropdown-toggle"> hello thar </button>
       </div>
@@ -36,6 +52,8 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/js/custom.js"></script>
   </body>
 </html>
