@@ -7,11 +7,12 @@ body {
   background-size: 56vh;
 }
 
-<<<<<<< HEAD
+
 .stats-card {
   margin-top: 20vh;
   background-color: rgba(255,255,255,0.8)
-=======
+}
+
 .dropdown-submenu {
   position: relative;
 }
@@ -28,7 +29,6 @@ body {
   left: 100%;
   margin-left: .1rem;
   margin-right: .1rem;
->>>>>>> 405fa01ead3d3af4f4c257127f288f986c94d4c7
 }
 
 .n av-pic {
