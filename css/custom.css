@@ -30,3 +30,9 @@ body {
   margin-right: .1rem;
 >>>>>>> 405fa01ead3d3af4f4c257127f288f986c94d4c7
 }
+
+.n av-pic {
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
+}
