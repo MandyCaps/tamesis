@@ -24,3 +24,9 @@ body {
   margin-left: .1rem;
   margin-right: .1rem;
 }
+
+.n av-pic {
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
+}
