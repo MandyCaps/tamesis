@@ -6,3 +6,8 @@ body {
   background-origin: content-box;
   background-size: 56vh;
 }
+
+.stats-card {
+  margin-top: 20vh;
+  background-color: rgba(255,255,255,0.8)
+}
